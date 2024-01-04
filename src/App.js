@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<MainPage setUser={setUser} />} />
+        <Route path="/" element={<MainPage setUser={setUser} user={user} />} />
         <Route path="/login" element={<AuthPage setUser={setUser} />} />
       </Routes>
     </div>
