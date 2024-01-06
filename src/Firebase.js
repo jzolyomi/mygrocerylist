@@ -7,12 +7,13 @@ import { GoogleAuthProvider } from "firebase/auth"; //Needed for Google Account 
 
 // Change this to your Firebase App configuration!!
 const firebaseConfig = {
-  apiKey: "AIzaSyB9N1o7_tRM1XcNnvbGaFsFwtZKtLkbN7g",
-  authDomain: "my-grocery-list-app-b0d20.firebaseapp.com",
-  projectId: "my-grocery-list-app-b0d20",
-  storageBucket: "my-grocery-list-app-b0d20.appspot.com",
-  messagingSenderId: "834019620093",
-  appId: "1:834019620093:web:396c6c1cdf7a495ad7ba94",
+  apiKey: "AIzaSyAKfl2M3wgbhKqMxtfVsZaiCKvr4WU-QN8",
+  authDomain: "codeandgeek-andromeda.firebaseapp.com",
+  projectId: "codeandgeek-andromeda",
+  storageBucket: "codeandgeek-andromeda.appspot.com",
+  messagingSenderId: "1096628255584",
+  appId: "1:1096628255584:web:58a2e45559612109963c05",
+  measurementId: "G-8GD6JQBFPD",
 };
 
 // Initialize Firebase
