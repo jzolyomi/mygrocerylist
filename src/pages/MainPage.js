@@ -46,7 +46,7 @@ export default function AuthPage({ user, setUser }) {
   }
   return (
     <div>
-      <h1>Welcome to my grocery list {user.displayName}</h1>
+      <h1>Welcome to my grocery list {user.displayName}!</h1>
       <button onClick={logout}>Logout</button>
       <br />
       <button onClick={TestApiCall}>Test Api call</button>
