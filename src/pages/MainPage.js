@@ -36,7 +36,7 @@ export default function AuthPage({ user, setUser }) {
         .get("http://127.0.0.1:8000/mygrocerylist/auth_test")
         .then(function (response) {
           // handle success
-          console.log(response.data);
+          setResponse(response.data.uid);
         })
         .catch(function (error) {
           // handle error
